@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+        background-color: #F0DEEF;
+ }
+
+
+.container_nachalo{
+    background-color: #F0DEEF;
+    display: flex;
+flex-direction: column;
+align-items: center;
+ 
+}
+
+.title {
+    background-color: #EBD2EA;
+    color: #7A4477;
+    font-size: 65px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    width: 90%;
+     border: 5px solid #E7CAE6;
+}
+
+
+.photo{
+    margin-left: 30px;
+    margin-right: 30px;
+display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: 84%;
+    background-color: #EBD2EA;
+    padding: 3%;
+    border: 5px solid #E7CAE6;
+} 
+
+.ph1{
+     margin-top: 25px;
+ padding: 1%;
+margin-right: 25px;
+margin-bottom: 25px;
+}
+
+.ph2{
+     margin-top: 25px;
+margin-left: 25px;
+margin-right: 25px;
+margin-bottom: 25px;
+padding: 1%;
+}
+
+.ph3{
+     margin-top: 25px;
+margin-left: 25px;
+padding: 1%;
+margin-bottom: 25px;
+}
+
+.photo img:hover{
+ position: relative;
+    opacity: 1;
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+
+
+.text{
+    margin-top: 4%;
+    display: flex;
+  color: #7A4477;
+ display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: 84%;
+    border: 5px solid #E7CAE6;
+    background-color: #EBD2EA;
+    margin-bottom: 5%;
+    padding: 3%;
+    font-size: 23px;
+     flex-direction: column;
+}
+
+
+
+.slider{
+    border: 5px solid #E7CAE6;
+     background-color: #EBD2EA;
+      width: 84%;
+      margin: 5% auto;
+}
+
+.slider__item {
+text-align: center;
+}
+
+.slick-track {
+display: flex;
+align-items: center;
+}
+
+.slick-list {
+overflow: hidden;
+}
+
+.slider {
+position: relative;
+padding: 0px 60px;
+margin-top: 50px;
+}
+
+.slick-arrow {
+position: absolute;
+top: 50%;
+z-index: 10;
+font-size: 0;
+}
+
+.slick-dots {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: -40px;
+}
+
+.slick-dots li {
+list-style: none;
+margin: 0px 10px;
+}
+
+.slick-dots button {
+font-size: 0;
+width: 10px;
+height: 13px;
+background-color: #fff;
+border-radius: 50%;
+border: 0;
+}
+
+.slick-dots li.slick-active button {
+background-color: #afbcc4;
+border: 1px solid #fff;
+}
+
+
+
+.tit{
+    font-size: 27px;
+    text-align: center;
+color: #7A4477 ;
+}
+
+
